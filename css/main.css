@@ -2,3 +2,18 @@
 @import "./content.css";
 @import "./sidebar.css";
 @import "./color.css";
+
+.title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}

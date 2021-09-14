@@ -1,6 +1,8 @@
-@import "./color.css";
-
 :root {
     --bgColor: #F5F5F5;
+    --bgColorWhite: #fff;
     --bgCardOpacity: rgba(255, 255, 255, 0.4);
+    --lightText: #F7F7F7;
+    --blue: #005BD1;
+    --lightBlue: #388FFF;
 }
