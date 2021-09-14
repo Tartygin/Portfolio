@@ -6,6 +6,7 @@
 .title{
     font-family: 'PT Sans', sans-serif;
     font-size: 32px;
+    margin: 0;
 }
 
 p{
@@ -16,4 +17,9 @@ p{
 a{
     text-decoration: none;
     cursor: pointer;
+}
+
+body{
+    margin: 0;
+    background-color: var(--bgColor);
 }

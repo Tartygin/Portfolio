@@ -1,1 +1,45 @@
 @import "./color.css";
+
+.sidebar{
+    margin-top: 16px;
+    width: 100%;
+}
+
+.sidebar > p {
+    margin: 32px 0 0 40px;
+}
+
+.sidebar-card{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: var(--bgCardOpacity);
+    margin: 16px 0 0 40px;
+    max-width: 322px;
+    padding: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.sidebar-card:hover{
+    background-color: var(--bgCardOpacity);
+    color: var(--lightBlue);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.sidebar-card__selected{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: var(--lightBlue);
+    color: var(--lightText);
+    margin-left: 40px;
+    max-width: 322px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.pageLang{
+    margin-top: auto;
+    display: flex;
+}

@@ -1,8 +1,6 @@
 @import "./color.css";
 
 .header{
-    height: 80px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +25,7 @@
 
 .header-photo > p{
     padding-left: 24px;
+    margin: 0;
 }
 
 .header-right{
@@ -40,14 +39,27 @@
     align-items: center;
     padding: 0 16px 0 4px;
     background-color: var(--bgColorWhite);
+    color: var(--blue);
     border-radius: 48px;
     height: 48px;
     margin-right: 16px;
+    fill: var(--blue);
 }
 
 .header-email > p {
     margin-left: 8px;
 }
+
+.header-email:hover{
+    background-color: var(--blue);
+    color: var(--lightText);
+    fill: var(--lightText);
+}
+
+/*
+.header-email svg:hover path{
+    fill: var(--lightText);
+} */
 
 .header-telegram{
     display: flex;
@@ -64,4 +76,8 @@
 
 .header-telegram > p {
     margin-right: 8px;
+}
+
+.header-telegram:hover {
+    background-color: var(--lightBlueHover);
 }
