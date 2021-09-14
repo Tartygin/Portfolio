@@ -1,1 +1,9 @@
 @import "./color.css";
+
+.figma{
+    display: flex;
+    background-color: var(--bgCardOpacity);
+    padding: 0 0 0 48px;
+    border-radius: 18px;
+    border: 2px solid var(--bgColorWhite);
+}
