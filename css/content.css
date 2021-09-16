@@ -1,9 +1,75 @@
 @import "./color.css";
 
-.figma{
-    display: flex;
-    background-color: var(--bgCardOpacity);
-    padding: 0 0 0 48px;
-    border-radius: 18px;
-    border: 2px solid var(--bgColorWhite);
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  margin: 16px 40px 16px 0;
+  grid-area: content;
+}
+
+.content-circle {
+  margin: 80px 0 0 20px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: var(--lightBlue);
+  width: 260px;
+  height: 260px;
+  z-index: -10;
+}
+
+.content-fav {
+  display: flex;
+  width: 323px;
+  height: 128px;
+}
+
+.figma {
+  background-color: var(--bgCardOpacity);
+  padding: 0 0 0 16px;
+  border-radius: 18px;
+  border: 2px solid var(--bgColorWhite);
+  width: 323px;
+  height: 128px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+}
+
+.figma-icon__forward {
+  background: transparent;
+  position: relative;
+  right: -200px;
+  top: -75px;
+
+  width: 150px;
+  height: 150px;
+
+  z-index: 1;
+}
+
+.figma-icon__background {
+  position: absolute;
+  top: 0px;
+
+  width: 220px;
+  height: 220px;
+
+  z-index: -1;
+  filter: blur(40px);
+}
+
+.content-myself {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgCardOpacity);
+  border: 2px solid var(--bgColorWhite);
+  border-radius: 18px;
+  max-width: 1080px;
+  padding: 16px;
+  backdrop-filter: blur(12px);
+}
+
+.content-myself > p {
+  margin: 0;
 }

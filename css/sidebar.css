@@ -3,6 +3,7 @@
 .sidebar{
     margin-top: 16px;
     width: 100%;
+    grid-area: sidebar;  
 }
 
 .sidebar > p {
