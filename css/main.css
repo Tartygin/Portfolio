@@ -3,32 +3,38 @@
 @import "./sidebar.css";
 @import "./color.css";
 
-.title{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 32px;
-    margin: 0;
+.title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  margin: 0;
 }
 
-p{
-    font-family: 'Mulish', sans-serif;
-    font-size: 16px;
-    line-height: 80%;
+p {
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
+a {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
 }
 
-body{
-    margin: 0;
-    background-color: var(--bgColor);
+a:hover {
+  color: var(--lightBlueHover);
+  text-decoration: underline;
 }
 
-.layout{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "sidebar sidebar sidebar content content content content content content content content";
+body {
+  margin: 0;
+  background-color: var(--bgColor);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "sidebar sidebar sidebar content content content content content content content content";
 }

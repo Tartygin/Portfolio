@@ -1,59 +1,59 @@
 @import "./color.css";
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding: 16px 40px;
-    background-color: var(--bgColor);
+  padding: 16px 40px;
+  background-color: var(--bgColor);
 }
 
-.header-photo{
-    width: 207px;
-    height: 48px;
-    border-radius: 48px;
-    overflow: hidden;
+.header-photo {
+  width: 207px;
+  height: 48px;
+  border-radius: 48px;
+  overflow: hidden;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    background-image: url("/img/ebalo.png");
-    color: var(--lightText);
+  background-image: url("/img/ebalo.png");
+  color: var(--lightText);
 }
 
-.header-photo > p{
-    padding-left: 24px;
-    margin: 0;
+.header-photo > p {
+  padding-left: 24px;
+  margin: 0;
 }
 
-.header-right{
-    display: flex;
-    align-items: center;
+.header-right {
+  display: flex;
+  align-items: center;
 }
 
-.header-email{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px 0 4px;
-    background-color: var(--bgColorWhite);
-    color: var(--blue);
-    border-radius: 48px;
-    height: 48px;
-    margin-right: 16px;
-    fill: var(--blue);
+.header-email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 0 4px;
+  background-color: var(--bgColorWhite);
+  color: var(--blue);
+  border-radius: 48px;
+  height: 48px;
+  margin-right: 16px;
+  fill: var(--blue);
 }
 
 .header-email > p {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
-.header-email:hover{
-    background-color: var(--blue);
-    color: var(--lightText);
-    fill: var(--lightText);
+.header-email:hover {
+  background-color: var(--blue);
+  color: var(--lightText);
+  fill: var(--lightText);
 }
 
 /*
@@ -61,23 +61,23 @@
     fill: var(--lightText);
 } */
 
-.header-telegram{
-    display: flex;
-    align-items: center;
+.header-telegram {
+  display: flex;
+  align-items: center;
 
-    background-color: var(--bgColorWhite);
-    border-radius: 48px;
-    max-width: 207px;
-    height: 48px;
-    padding: 0 16px;
-    background-color: var(--lightBlue);
-    color: var(--lightText);
+  background-color: var(--bgColorWhite);
+  border-radius: 48px;
+  max-width: 207px;
+  height: 48px;
+  padding: 0 16px;
+  background-color: var(--lightBlue);
+  color: var(--lightText);
 }
 
 .header-telegram > p {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .header-telegram:hover {
-    background-color: var(--lightBlueHover);
+  background-color: var(--lightBlueHover);
 }
