@@ -26,6 +26,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.header-right > a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   /* background-color: var(--bgColor); */
@@ -34,7 +38,7 @@ body {
   overflow: hidden;
 
   scrollbar-width: thin; /* "auto" или "thin"  */
-  scrollbar-color: var(--lightBlueSelect) var(--bgCardOpacity); /* плашка скролла и дорожка */
+  scrollbar-color: var(--lightBlueSelect) var(--bgCardOpacity); /* плашка скролла и дорожка  */
 }
 
 ::-webkit-scrollbar {

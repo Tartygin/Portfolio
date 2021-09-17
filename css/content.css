@@ -12,7 +12,7 @@
 
 .content-fav {
   display: flex;
-  width: 323px;
+  width: 320px;
   height: 128px;
 }
 
@@ -21,9 +21,12 @@
   padding: 0 0 0 16px;
   border-radius: 18px;
   border: 2px solid var(--bgColorWhite);
-  width: 323px;
-  min-height: 128px; /* КОСТЫЛЬ */
+  width: 320px;
+  /* height: 128px; */
+
+  min-height: 128px;
   max-height: 128px;
+
   overflow: hidden;
   backdrop-filter: blur(12px);
 }
@@ -55,7 +58,8 @@
   filter: blur(40px);
 }
 
-.content-myself {
+.content-myself,
+.content-project {
   margin-top: 16px;
   display: flex;
   flex-direction: column;
@@ -69,4 +73,36 @@
 
 .content-myself > p {
   margin: 0;
+}
+
+.project {
+  padding: 32px;
+  display: flex;
+}
+
+.project-right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-text {
+  padding-left: 16px;
+}
+
+.project-text > .title {
+  margin-bottom: 16px;
+}
+
+.project-links {
+  display: flex;
+}
+
+.project-links-btn {
+  padding: 12px 16px;
+  background-color: var(--lightBlue);
+  border-radius: 18px;
+  color: var(--lightText);
+
+  display: flex;
+  align-items: center;
 }

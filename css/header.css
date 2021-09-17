@@ -30,6 +30,10 @@
   margin: 0;
 }
 
+.header-photo:active {
+  background-image: url("/img/meme.png");
+}
+
 .header-right {
   display: flex;
   align-items: center;
@@ -82,4 +86,9 @@
 
 .header-telegram:hover {
   background-color: var(--lightBlueHover);
+  color: var(--lightText);
+}
+
+.header-telegram:active {
+  background-color: var(--blueActive);
 }
